@@ -1,7 +1,7 @@
 ---
 title: YOURS
 description_markdown: >-
-  YOURS is a durarional solo performance work that uses interaction with the audience to explore memory, loss and our essential human need to remember.
+  YOURS is a durational solo performance work that uses interaction with the audience to explore memory, loss and our essential human need to remember.
 
   The work was made during a four day collaboration, METRON, with artist Alun Ward who showed a video and sound installation RUN.
 
@@ -17,7 +17,7 @@ description_markdown: >-
 
 homepage_description_markdown: 
 frontpage: true
-_gallery_date: 2016-05-01 00:00:00
+_gallery_date: 2007-05-01 00:00:00
 permalink: /gallery/yours/
 archive: false
 display_title: true

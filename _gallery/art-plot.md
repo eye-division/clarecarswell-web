@@ -8,7 +8,7 @@ description_markdown: >-
   Her need, as for all artists is to make a living and preferably through art related activity and her relationship with her own creativity and with the garden plot which is the source for this new productivity is at the core of ART-PLOT. 
 homepage_description_markdown: 
 frontpage: true
-_gallery_date: 2016-05-01 00:00:00
+_gallery_date: 2017-05-01 00:00:00
 permalink: /gallery/art-plot/
 archive: false
 display_title: true

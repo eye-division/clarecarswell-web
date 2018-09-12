@@ -4,7 +4,7 @@ description_markdown: >-
   In PLAY OUT, Clare again proposes herself as the persona ME-WOMAN. Using strategies of play, impromptu dialogue, repetition and unmediated interaction with a non-art audience in rural locations. The work references and rethinks ethnic ritual and customs from English folklore that are connected to fertility. Drawing imagery from erotic medieval sculptures found in Oxfordshire, the artist makes links to selected locations in the region and contrasts contemporary with bawdy historic versions of the libidinous female. She instigates an inventive and intriguing dialogue to test the potential of the relationship between performer and audience.
 homepage_description_markdown: 
 frontpage: true
-_gallery_date: 2016-05-01 00:00:00
+_gallery_date: 2008-01-01 00:00:00
 permalink: /gallery/play-out/
 archive: false
 display_title: true

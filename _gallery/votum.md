@@ -6,7 +6,7 @@ description_markdown: >-
   An invented votum that mimics ritual offerings in return for divine favour. Using the artist's body, found flowers, talcum powder and song.
 homepage_description_markdown: 
 frontpage: true
-_gallery_date: 2016-05-01 00:00:00
+_gallery_date: 2010-07-01 00:00:00
 permalink: /gallery/votum/
 archive: false
 display_title: true

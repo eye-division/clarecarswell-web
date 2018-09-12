@@ -8,7 +8,7 @@ description_markdown: >-
   Visually seductive, inventive and comedic yet compelling, Carswell’s work reflects the enquiry and vibrancy of the dialogue between artists in The Ideas Exchange.
 homepage_description_markdown: 
 frontpage: true
-_gallery_date: 2016-05-01 00:00:00
+_gallery_date: 2008-05-01 00:00:00
 permalink: /gallery/gal/
 archive: false
 display_title: true

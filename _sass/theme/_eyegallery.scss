@@ -1,17 +1,18 @@
 // -----------------------------------------------------------------------------
 // Plain demo theme for Eye Gallery
 // -----------------------------------------------------------------------------
-/* Bourbon overrides - files in base/ */
+/* Bourbon variable overrides - files in /base/ */
 
 /* _variables.scss - needed first */
+
 // Google Fonts
-@import url(//fonts.googleapis.com/css?family=Roboto+Condensed|Lato:300,400);
+//@import url(//fonts.googleapis.com/css?family=Didact+Gothic|Lato:300,400);
 
 // Typography
 $base-font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 // OR use ? $font-stack-system;
-$heading-font-family: ('Roboto Condensed', 'Helvetica Neue', 'Helvetica', 'verdana', 'Arial', sans-serif);
-$subheading-font-family: ('Roboto Condensed', 'Helvetica Neue', 'Helvetica', 'verdana', 'Arial', sans-serif);
+$heading-font-family: ('Didact Gothic', 'Helvetica Neue', 'Helvetica', 'verdana', 'Arial', sans-serif);
+$subheading-font-family: ('Didact Gothic', 'Helvetica Neue', 'Helvetica', 'verdana', 'Arial', sans-serif);
 $site-title-font-family: $heading-font-family;
 
 // Line height
@@ -33,7 +34,9 @@ $purple: rgb(142, 68, 173);     // Wisteria
 $orange: rgb(211, 84, 0);     // Pumpkin
 $red: rgb(192, 57, 43);       // Pomegranate
 $gray: rgb(127, 140, 141);        // Asbestos
-$dark-gray: rgb(51, 51, 51) !default;
+$dark-gray: rgb(102, 102, 102) !default;
+
+$pink: rgb(255, 153, 204);
 
 // Social Media Brand Colors */
 $twitter: rgb(0, 172, 237);
@@ -63,9 +66,9 @@ $aaa-hover: rgb(181, 0, 16);
 $aaa-visited: rgb(128, 65, 128);
 
 // Font Colors
-$base-font-color: $black;
-$action-color: darken($base-font-color,20%);
-$action-hover-color: $aaa-hover;
+$base-font-color: $dark-gray;
+$action-color: $pink;
+$action-hover-color: darken($action-color,20%);
 
 // Border
 $base-border-radius: 3px !default;
@@ -91,26 +94,14 @@ $navigation-submenu-width: 15em;
 
 $navigation-background: $white;
 $navigation-color: $dark-gray;
-$navigation-color-hover: $orange;
-$navigation-active-link-color: $orange;
+$navigation-color-hover: $action-hover-color;
+$navigation-active-link-color: $action-color;
 
 // footer
 $footer-background: $white;
 $footer-color: $dark-gray;
 $footer-color-hover: $action-hover-color;
 $footer-active-link-color: $action-color;
-
-// drop down variables
-$dropdown-color: $base-font-color;
-$dropdown-description-color: lighten($dropdown-color, 40%);
-$dropdown-border: 1px solid silver;
-$dropdown-background: $base-background-color;
-$dropdown-background-hover: darken($dropdown-background, 3%);
-$dropdown-inner-border: 1px solid silver;
-$dropdown-height: 40px;
-$dropdown-padding: 1em;
-$dropdown-distance-from-menu: 50px;
-$dropdown-arrow-top-distance: 0;
 
 /// Forms
 $form-box-shadow: inset 0 1px 3px rgba(rgb(0, 0, 0), 0.06);
@@ -137,72 +128,6 @@ $large: (
 body {
   background-color: $base-background-color;
 }
-.page--content {
-  @include grid-container;
-  //@include grid-visual;
-  max-width: 1200px;
-  padding: 0;
-  padding-bottom: 120px;
-  margin: 0 auto;
-  //background: url('/assets/images/leaf.png') bottom -30px left -30px no-repeat, $page-background-color;
-  //background-color: $page-background-color;
-  border-right: 1px solid $light-gray;
-  border-left: 1px solid $light-gray;
-  @include grid-media ($small) {
-    //background: url('/assets/images/leaf.png') top 10px right 10px no-repeat, url('/assets/images/leaf.png') bottom -30px left -30px no-repeat, $page-background-color;
-  }
-  /// index.html
-  .site-header-container {
-      color: $white;
-      text-shadow: 0 2px 1px rgba(0,0,0,0.33);
-      background-color: $highlight-color;
-      .site--header{
-          .title {
-              font-size: modular-scale(6);
-          }
-          .subtitle {
-              font-style: italic;
-              font-size: modular-scale(1);
-          }
-      }
-  }
-
-}
-
-.page {
-   padding: 1em;
-   max-width: 48em;
-   margin: 0 auto;
-
-}
-
-/* _lists.scss */
-ol.default {
-    @extend %default-ol !optional;
-}
-
-ul.default {
-    @extend %default-ul !optional;
-}
-.list--horizontal {
-  display: inline;
-  padding-right: 1em;
-}
-.list--bulleted {
-  list-style-type: none;
-  list-style-position: inside;
-  margin-left: 15px;
-  margin-bottom: 10px;
-
-  li::before {
-    content: "•";
-    color: $action-color;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-  }
-}
-
 
 
 .textright {

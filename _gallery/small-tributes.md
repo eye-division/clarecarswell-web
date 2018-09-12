@@ -4,7 +4,7 @@ description_markdown: >-
   Performance works that are unannounced and often go unnoticed by others. Acts of Small Tribute to the artist's late mother that stem from the private space and exist fleetingly in the public.
 homepage_description_markdown: 
 frontpage: true
-_gallery_date: 2016-05-01 00:00:00
+_gallery_date: 2010-01-01 00:00:00
 permalink: /gallery/small-tributes/
 archive: false
 display_title: true

@@ -14,7 +14,7 @@ description_markdown: >-
   With thanks to course leader Tracey Warr and Karen Ann Pegg from A Chapter Away for permission to make this work.
 homepage_description_markdown: 
 frontpage: true
-_gallery_date: 2016-05-01 00:00:00
+_gallery_date: 2017-05-01 00:00:00
 permalink: /gallery/flush/
 archive: false
 display_title: true

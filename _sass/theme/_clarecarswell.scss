@@ -1,0 +1,25 @@
+// -----------------------------------------------------------------------------
+// Overrides for client
+// -----------------------------------------------------------------------------
+// variables
+
+// Google Fonts
+@import url(//fonts.googleapis.com/css?family=Didact+Gothic|Lato:300,400);
+
+//$base-font-color;
+
+$pink: rgb(255, 153, 204);
+$action-color: $pink;
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  color: darken($action-color, 10%);
+  text-transform: lowercase;
+  margin-bottom: $base-spacing;
+}

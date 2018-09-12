@@ -14,13 +14,13 @@ description_markdown: >-
   The work will knowingly blend culturally embedded versions of the siren female with the persona of the mature woman and relocate them in the public rural space.
 homepage_description_markdown: 
 frontpage: true
-_gallery_date: 2016-05-01 00:00:00
+_gallery_date: 2018-05-01 00:00:00
 permalink: /gallery/athas/
 archive: false
 display_title: true
-main_image_path: /assets/images/Athas2(1).jpg
+main_image_path: /assets/images/athas2.jpg
 images:
-  - image_path: "/assets/images/Athas2(1).jpg"
+  - image_path: "/assets/images/athas2.jpg"
     image_title: ""
     image_description_markdown: ""
 _options:

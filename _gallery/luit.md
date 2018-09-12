@@ -10,7 +10,7 @@ description_markdown: >-
   It is proposed also that it act as icon, logo or 'brand' identity for the artist.
 homepage_description_markdown: 
 frontpage: true
-_gallery_date: 2016-05-01 00:00:00
+_gallery_date: 2006-07-01 00:00:00
 permalink: /gallery/luit/
 archive: false
 display_title: true

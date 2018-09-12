@@ -7,7 +7,7 @@ description_markdown: >-
   Kenju Miyazawa
 homepage_description_markdown: 
 frontpage: true
-_gallery_date: 2016-05-01 00:00:00
+_gallery_date: 2010-02-01 00:00:00
 permalink: /gallery/fuel/
 archive: false
 display_title: true

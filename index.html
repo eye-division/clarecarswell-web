@@ -1,10 +1,10 @@
 ---
 layout: home
 carousel:
-  - image: /assets/images/advert-customers.jpg
-    caption: "A test caption"
-    link: /gallery/test/
-  - image: /assets/images/advert-impregnable.jpg
+  - image:
+    caption:
+    link:
+  - image:
     caption:
     link:
 _options:
@@ -39,7 +39,7 @@ _comments:
               </a>
             {% endif %}
               {% if slides.caption %}
-              <p class="flex-caption">{% if slides.link %}<a href="{{ site.baseurl }}{{ slides.link }}" title="View project">{% endif %}{{ slides.caption }}{% if slides.link %}&nbsp;<svg class="icon icon__white icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-double_angle_right" /></svg></a>{% endif %}</p>
+              <p class="flex--caption">{% if slides.link %}<a href="{{ site.baseurl }}{{ slides.link }}" title="View project">{% endif %}{{ slides.caption }}{% if slides.link %}&nbsp;<svg class="icon icon__white icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-double_angle_right" /></svg></a>{% endif %}</p>
               {% endif %}
             </li>
             {% endfor %}
@@ -55,14 +55,14 @@ _comments:
       {% if section.frontpage %}
 
         {% if section.main_image_path %}
-          <section class="gallery-cover has-cover" style="background-image: url({{ section.main_image_path }});">
+          <section class="gallery--cover has--cover" style="background-image: url({{ section.main_image_path }});">
         {% else %}
-          <section class="gallery-cover has-cover" style="background-image: url('http://placekitten.com/g/1200/300');">
+          <section class="gallery--cover has--cover" style="background-image: url('http://placekitten.com/g/1200/300');">
         {% endif %}
           <a href="{{ section.url | prepend: site.baseurl }}">
-            <div class="scrim has-cover">
+            <div class="scrim has--cover">
               <article class="gallery--front">
-                <header class="gallery-header">
+                <header class="gallery--header">
                   <h2 class="title">{{ section.frontpagetitle }}</h2>
                 </header>
                 {% if section.homepage_description_markdown %}
@@ -79,14 +79,17 @@ _comments:
     {% endfor %}
 
       <!-- Galleries -->
+
     {% for gallery in site.gallery %}
+
       {% if gallery.frontpage %}
-        <section class="gallery-cover {% if gallery.main_image_path %}has-cover{% endif %}" {% if gallery.main_image_path %}style="background-image: url({{ gallery.main_image_path | prepend: gallery.baseurl }});"{% endif %}>
+
+        <section class="gallery--cover {% if gallery.main_image_path %}has--cover{% endif %}" {% if gallery.main_image_path %}style="background-image: url({{ gallery.main_image_path | prepend: gallery.baseurl }});"{% endif %}>
           <a href="{{ gallery.url }}">
-            <div class="scrim {% if gallery.main_image_path %}has-cover{% endif %}">
+            <div class="scrim {% if gallery.main_image_path %}has--cover{% endif %}">
             <article class="gallery--front">
-              <header class="gallery-header">
-                <h2 class="title">{{ gallery.title }}</h2>
+              <header class="gallery--header">
+                <h2 class="title mb0">{{ gallery.title }}</h2>
               </header>
               {% if gallery.homepage_description_markdown %}
                 {{ gallery.homepage_description_markdown | markdownify }}
@@ -95,5 +98,7 @@ _comments:
           </div>
         </a>
       </section>
+
       {% endif %}
+
     {% endfor %}

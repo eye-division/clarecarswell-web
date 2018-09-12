@@ -24,21 +24,21 @@
     margin: 0;
     font-size: 1.5em;
     padding-top: 0.5em;
-    color: $navigation-color;
+    color: $action-color;
     text-decoration: none;
     .icon-menu {
-        fill : $navigation-color;
+        fill : $action-color;
     }
     &:link {
-        color: $navigation-color;
+        color: $action-color;
         text-decoration: none;
     }
     &:hover, &:active {
         text-decoration: none;
-        color: tint($navigation-color,20%);
+        color: tint($action-color,20%);
         /// menu icon
         .icon-menu {
-            fill : tint($navigation-color,20%);
+            fill : tint($action-color,20%);
         }
     }
    @include grid-media ($small) {
@@ -67,8 +67,6 @@ nav {
     padding: 0;
     width: 100%;
     @include grid-media ($small) {
-      border-top: 1px solid $medium-gray;
-      border-bottom: 1px solid $medium-gray;
       display: block;
       margin: 0;
       padding: 0;
@@ -84,8 +82,8 @@ nav {
     display: block;
     text-align: right;
     width: 100%;
-    padding: 0;
-    text-transform: uppercase;
+    padding: 0.5em;
+    text-transform: lowercase;
 
     @include grid-media ($small) {
         background: transparent;

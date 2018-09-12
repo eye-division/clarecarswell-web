@@ -7,7 +7,8 @@ description_markdown: >-
 
   The work echoed the dimensions of the stained glass window "In His hands the seeds will grow", by Ervin Bossanyi on the South Chancel wall behind the font. Through the making of this window in 1943, the artist made a statement of hope in a world of despair.  
 
-  Just before his death in 1975, Bossanyi wrote : 
+  Just before his death in 1975, Bossanyi wrote :  
+
   >"Perhaps my lamp is not valid in a place like our modern world, so terribly full of neons, flood-reflectors, search-lights and atomic flashes. We have offered our modest contributions, a brick, a stained glass, a gesture, a sentence, a whole life's endeavour".  
 
   The work REFLECTION that I made for this chapel attempted to offer another image of hope and renewal for the start of the new millennium. Using simple materials, the piece described the transformation from despair and destruction to an image of beauty and life.  

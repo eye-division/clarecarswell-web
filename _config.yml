@@ -20,13 +20,14 @@ description: Clare Carswell Eye Gallery site
 baseurl: ""
 # the base hostname & protocol for your site
 url: "https://black-hare.cloudvent.net"
-# https://gnarly-stone.cloudvent.net/ for Jekyll3 branch -
 # apt-loris.cloudvent.net for Jekyll3 sync
 
 logo: "/assets/logo.gif"
 email: a.ward@eyedivision.com
 
+# some Eye Gallery settings
 show_carousel: false
+thumb_crop: false
 
 # Build settings
 markdown: kramdown

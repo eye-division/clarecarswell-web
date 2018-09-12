@@ -15,7 +15,7 @@ description_markdown: >-
 
 homepage_description_markdown: 
 frontpage: true
-_gallery_date: 2016-05-01 00:00:00
+_gallery_date: 2006-07-01 00:00:00
 permalink: /gallery/giften/
 archive: false
 display_title: true

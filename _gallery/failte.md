@@ -10,11 +10,12 @@ description_markdown: >-
   Once at Oxford Brookes the nature of the engagement with others changed as the audience were largely other artists or an art aware audience. Clare enlisted the help of others to put on various hand painted items including a hat and stole and then drew a large floral chalk lawn and painted herself into it. She ended the work by inviting audience onto her chalk lawn with her to sing "Oh Danny Boy", a nostalgic Irish song that is loved the world over.
 homepage_description_markdown: 
 frontpage: true
-_gallery_date: 2016-05-01 00:00:00
+_gallery_date: 2017-05-02 00:00:00
 permalink: /gallery/failte/
 archive: false
 display_title: true
 main_image_path: "/assets/images/595a61d43e163.jpg"
+thumb_crop: true
 images:
   - image_path: "/assets/images/595a61d43e163.jpg"
     image_title: ""

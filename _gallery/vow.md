@@ -11,7 +11,7 @@ description_markdown: >-
 
 homepage_description_markdown: 
 frontpage: true
-_gallery_date: 1999-05-01 00:00:00
+_gallery_date: 1990-05-01 00:00:00
 permalink: /gallery/vow/
 archive: false
 display_title: true

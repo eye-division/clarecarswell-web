@@ -12,6 +12,7 @@ images:
   - image_path:
     image_title:
     image_description_markdown:
+thumb_crop: false
 _options:
   image_path:
     width: 1200
@@ -32,4 +33,5 @@ _comments:
   archive: Not used yet!
   frontpage: Show this gallery on the homepage
   homepage_description_markdown: Text used on homepage if shown
+  thumb_crop: Do you want to crop the thumbnail images
 ---
