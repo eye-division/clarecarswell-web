@@ -28,35 +28,16 @@ _comments:
   images: Add and edit images here
 ---
   <div class="editable">
-       <strong>Tel:</strong> 111 1111
-  </div>
+    <p>Clare works at :</p><br />
+    <p>&nbsp;OVERLAY STUDIO &nbsp;Spelsbury Road &nbsp;Charlbury Chipping Norton &nbsp;Oxon &nbsp;OX7 3LL</p><br />
+    <p>&nbsp;t.&nbsp;&nbsp; 01608 811997</p><br />
+    <p>m. &nbsp;07769 723328</p><br />
+    <p>&nbsp;e. &nbsp;clarecarswellartistatgmail.com</p>
+</div>
 
-      <h4>Send an email</h4>
+<div class="cognito">
 
-      <form action="/thanks/" method="post">
-
-      <fieldset>
-            <input type="text" name="_gotcha" style="display:none" />
-            <input type="hidden" name="_to" value="support@eyedivision.com">
-            <input type="hidden" name="_subject" value="Web form">
-            <p>
-            <label for="name">Name:</label>
-            <input type="text" name="name">
-            </p>
-            <p>
-            <label for="_replyto">Email:</label>
-            <input type="email" name="_replyto">
-            </p>
-            <p>
-            <label>Message</label>
-            <textarea name="message"></textarea>
-            </p>
-            {% if site.recaptcha_site_key %}
-                  <div class="g-recaptcha" data-sitekey="{{ site.recaptcha_site_key }}"></div>
-            {% endif %}
-      	<p>
-            <input type="submit" value="Send message">
-            </p>
-      </fieldset>
-
-      </form>
+  <script src="https://services.cognitoforms.com/include/required"></script>
+  <script src="https://services.cognitoforms.com/session/script/c79cf679-d793-4a8f-ba03-97c70481c7f7"></script>
+  <script>Cognito.load("forms", { id: "1" });</script>
+</div>

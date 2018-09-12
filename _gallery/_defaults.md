@@ -11,7 +11,7 @@ display_title: true
 images:
   - image_path:
     image_title:
-    image_description:
+    image_description_markdown:
 _options:
   image_path:
     width: 1200

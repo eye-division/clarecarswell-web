@@ -8,8 +8,8 @@
 @import 'vendor-extensions/flexslider';
 @import 'vendor-extensions/lightbox';
 
-// 3. Base
-@import	'base/core';
+// 3. Theme
+//@import 'theme/vanilla';
 
 // 4. Layout
 @import	'layout/header';
@@ -25,14 +25,11 @@
 @import 'components/media';
 @import 'components/cloudcannon';
 @import 'components/cover';
-@import 'components/product';
+//@import 'components/product';
 @import 'components/svg';
 
 // 6. Page-specific
 @import	'pages/home';
-
-// 7. Themes
-@import 'theme/vanilla';
 
 // 8. Shame
 @import 'shame';
